@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clear{
+   clear: both;
+}.text-white{
+    color: #fff !important;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#header{
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+#nav{
+    display: inline-block;
+}
+#subnav, #nav{
+    list-style-type: none;
+    /* cách đặt dấu */
+    /* bỏ dấu chấm của thể ul li */
+}
+#nav > li{
+    display: inline-block;
+
+}
+#nav li{
+    line-height: 46px;
+    position: relative;
+}
+#nav > li > a{
+    color: #fff;
+/* chỉ có chữ của thằng li > a 1 thooi */
+}
+#nav li a{
+    text-decoration: none;
+    padding: 0 24px;
+    display: inline-block;
+}
+#nav > li > a{
+    text-transform: uppercase;
+}
+
+#nav > li:hover > a{
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav li:hover #subnav{
+    display: block;
+}
+/* đoạn này nắm rõ thuốc tính ưu tiên */
+#nav #subnav{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 12px #000;
+    /* 0 0 căn giữa đổ bóng */
+}
+
+#header #subnav li:hover{
+    color: #000;
+    background-color: #ccc;
+}
+#subnav > li > a{
+    min-width: 128px;
+    line-height: 38px;
+    display: block;
+    color: #000;
+    padding: 0 16px;
+}
+#subnav a{
+    
+}
+.icon{
+    
+    font-size: 15px;
+}
+#header .search-bth{
+float: right;
+padding: 0 24px;
+}
+#header .search-icon{
+    line-height: 46px;
+    font-size: 15px;
+    color: #fff;
+}
+#header .search-bth:hover{
+    background-color: red;
+    cursor: pointer;
+}

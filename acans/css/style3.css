@@ -1,0 +1,113 @@
+#content .member-item{
+float: left;
+width: 33.3333%;
+
+text-align: center;
+}
+#content .member-list{
+    padding: 32px 0;
+    /* overflow: hidden; */
+    /* cách khẳng phục khi sử dụng float */
+}
+
+#content .ten-anh{
+    font-size: 15px;
+    margin: 15px 0;
+}
+.member-list .ten-sub-anh{
+width: 58%;
+margin-bottom: 15px;
+border-radius: 5px;
+/* có tác dụng bo góc ảnh */
+}
+
+.tour-section{
+   background-color: #000;
+}
+.tickets-list{
+    list-style: none;
+    background-color: #fff;
+
+}
+.tour-section .section-sub-heading{
+    padding: 10px 0;
+}
+.tickets-list li{
+padding: 11px 16px;
+font-size: 15px;
+border-bottom: 1px solid #ddd;
+color: #757575;
+}
+.tickets-list .sold-out{
+    font-size: 15px;
+    color: #fff;
+    background-color: #f44336;
+    margin-left: 16px;
+    padding: 3px 7px;
+
+}
+.tickets-list .quantity{
+    float: right;
+    padding: 3px 8px;
+    background-color: #000;
+    border-radius: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: -3px;
+    /* co float moi dung dduoc */
+}
+.place-list{
+    margin-top: 32px;
+    margin-left:  -8px;
+    margin-right: -8px;
+    padding-bottom: 32px;
+}
+.place-item{
+    width: 33.3333%;
+    float: left;
+    color: #000;
+    padding: 0 8px;
+    box-sizing:border-box;
+    /* background-color: #fff; */
+
+}
+.place-body{
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+}
+.place-img{
+    display: block;
+    width: 100%;
+}
+
+.place-heading{
+    font-size: 15px;
+    /* the h khong co thuoc tinh an theo */
+    /* margin: 15px 0 ; */
+}
+.place-decs{
+padding-top: 15px;
+line-height: 1.4;
+}
+.place-time{
+padding-top: 15px;
+opacity: 0.6;
+}
+.place-buy-bth{
+
+background-color: #000;
+text-decoration: none;
+color: #fff;
+text-align: center;
+padding: 11px 18px;
+display: inline-block;
+margin-top: 15px;
+}
+.place-buy-bth:hover{
+background-color: #ccc;
+color: #000;
+}
+.place-img:hover{
+    opacity: 0.6;
+}
